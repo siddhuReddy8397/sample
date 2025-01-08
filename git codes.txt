@@ -1,0 +1,49 @@
+PS D:\Siddhu\Repo Project\codes> git init
+Initialized empty Git repository in D:/Siddhu/Repo Project/codes/.git/
+PS D:\Siddhu\Repo Project\codes> git add .
+PS D:\Siddhu\Repo Project\codes> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.css
+
+PS D:\Siddhu\Repo Project\codes> git commit -m 'added app css file'
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'sudha@DESKTOP-PTVTPFE.(none)')
+PS D:\Siddhu\Repo Project\codes> git config --global user.email "siddhureddy8397@gmail.com"
+PS D:\Siddhu\Repo Project\codes> git commit -m 'added app css file'
+[master (root-commit) 647ea05] added app css file
+ 1 file changed, 3 insertions(+)
+ create mode 100644 app.css
+PS D:\Siddhu\Repo Project\codes> git remote add origin 'https://github.com/siddhuReddy8397/sample.git'
+PS D:\Siddhu\Repo Project\codes> git remote -v
+origin  https://github.com/siddhuReddy8397/sample.git (fetch)
+origin  https://github.com/siddhuReddy8397/sample.git (push)
+PS D:\Siddhu\Repo Project\codes> git push -u origin master 
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 277 bytes | 277.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/siddhuReddy8397/sample/pull/new/master
+remote:
+To https://github.com/siddhuReddy8397/sample.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS D:\Siddhu\Repo Project\codes> 
